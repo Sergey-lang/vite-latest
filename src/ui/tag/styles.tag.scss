@@ -1,0 +1,22 @@
+.tag-wrapper {
+  --padding: 0.3125rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 89.25px;
+  padding-top: var(--padding);
+  padding-bottom: var(--padding);
+  border: 1px solid rgb(166 166 166 / 40%);
+  border-radius: 0.625rem;
+
+  font-size: 0.75rem;
+  color: var(--grey-7A7A7A);
+
+  &-selected {
+    border: none;
+    color: var(--white-168ACD);
+    background:  var(--blue-168ACD);
+  }
+}

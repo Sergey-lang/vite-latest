@@ -1,0 +1,19 @@
+@import "breakpoints";
+
+@mixin to($to) {
+    @media (max-width: $to - 1px) {
+        @content;
+    }
+}
+
+@mixin from($from) {
+    @media (min-width: $from) {
+        @content;
+    }
+}
+
+@mixin range($from, $to) {
+    @media (min-width: $from) and (max-width: $to - 1px) {
+        @content;
+    }
+}

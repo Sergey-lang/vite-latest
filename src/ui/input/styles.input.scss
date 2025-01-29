@@ -1,0 +1,28 @@
+
+
+.input-wrapper {
+  --font-size: 2.625rem;
+
+  position: relative;
+
+  .hidden-span {
+    position: absolute;
+    font-size: var(--font-size);
+    visibility: hidden;
+  }
+
+  .input {
+    border: none;
+
+    font-family: Inter, sans-serif;
+    font-size: var(--font-size);
+    font-weight: 500;
+
+    outline: none;
+  }
+
+  .currency-name {
+    font-size: 2rem;
+    color: var(--blue-168ACD);
+  }
+}

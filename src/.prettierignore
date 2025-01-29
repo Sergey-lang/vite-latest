@@ -1,0 +1,17 @@
+# Directories
+
+node_modules
+.vscode
+.gitlab
+public/**/*.js
+/dist
+dist
+
+# Files
+
+*.env
+*.log
+.DS_Store
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
